@@ -21,3 +21,11 @@ bikeshare_tibo_final_150421.py
 ### Credits
 This project was initally cloned from the GitHub repo https://github.com/udacity/pdsnd_github
 
+
+
+### **Future Updates Needed**
+
+The user should be able to ask to see the first 5 lines of raw data, and if requested, the 5 following lines, and so on.
+
+Code should handle typo errors for the names of th cities: for ex.: Washington...
+
