@@ -29,6 +29,9 @@ def get_filters():
         continue
      except:
       continue
+
+    #TO DO: We need a minor change here.Think of a scenario where the user enters case sensitive data
+    #such as "Chicago" , "chiCAgo" etc .....The code in this line will not be able to understand this.Think of a way to implement case agnost inputs. We need this as per the rubric.
     
     #get user input for filter by month or day
     while True:
@@ -212,6 +215,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+    # TODO:think of a way to print 5 rows at a time and wait for user inputs.When the user asks for more results, print the next five lines.
 
 def main():
     while True:
