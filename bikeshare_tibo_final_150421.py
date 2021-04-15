@@ -210,6 +210,14 @@ def user_stats(df):
     print('The most recent birth year is: ', most_recent_birth_year)
     print('The most common birth year is: ', most_common_birth_year)
 
+    #Get first five lines on user request:
+    #while True
+    #try print(df.head())
+    #view_raw_data = input('Do you wanna see 5 more lines: yes or no?')
+    # If answer is yes:
+    # PROBLEM: I wanted to delete the rows of my df and show head again... 
+    #Except: break
+
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
